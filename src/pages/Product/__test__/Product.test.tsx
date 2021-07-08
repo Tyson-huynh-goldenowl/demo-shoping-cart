@@ -8,6 +8,7 @@ import Products from '../Products';
 describe('<Product />', () => {
     it('renders  components', () => {
       const wrapper = shallow(<Products />);
+      jest.spyOn(React, 'useEffect').mockImplementation(f => f());
       expect(shallow).toMatchSnapshot();
     });
   
