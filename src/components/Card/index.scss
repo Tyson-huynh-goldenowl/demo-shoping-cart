@@ -1,0 +1,31 @@
+.ant-card-body {
+  height: 100%;
+  position: relative;
+}
+
+.antd-card-product {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  .antd-product--name {
+    font-weight: 600;
+  }
+  .antd-product-label {
+    font-weight: 600;
+  }
+  .antd-product-price {
+  }
+  .antd-product-des {
+    margin-top: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5; /* number of lines to show */
+    -webkit-box-orient: vertical;
+  }
+  .btn-card {
+    position: absolute;
+    bottom: 10px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+  }
+}
