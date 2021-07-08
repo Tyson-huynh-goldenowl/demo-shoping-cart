@@ -18,6 +18,7 @@
     "babel-loader": "8.1.0",
     "chai": "^4.3.4",
     "enzyme": "^3.11.0",
+    "express": "^4.17.1",
     "ignore-styles": "^5.0.1",
     "jest": "26.6.0",
     "jest-fetch-mock": "^3.0.3",
@@ -39,7 +40,8 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start:dev": "react-scripts start",
+    "start": "node server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "lint": "eslint .",
