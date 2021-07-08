@@ -46,7 +46,6 @@ const Cart = () => {
     dispatch(updateListProduct(currentProduct));
   };
 
-  console.log("===21212121====>", carts);
   return (
     <>
       <Menu

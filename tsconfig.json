@@ -20,7 +20,7 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "types": [
-      "jest"            // Chú ý ở đây phải có cài này không file .ts sẽ báo lỗi 
+      "jest"
     ],
   },
   "include": [
