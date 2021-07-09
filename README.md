@@ -3,10 +3,14 @@
 (https://shoping-cart-demo.herokuapp.com)
 
 ## Option
--Use ESLint on VSCode
--Use Prettier on VSCode
--Install eslint: yarn global add eslint
--Install prettier: yarn global add prettier
+
+- Use ESLint on VSCode
+
+- Use Prettier on VSCode
+
+- Install eslint: yarn global add eslint
+
+- Install prettier: yarn global add prettier
 
 ## Available Scripts
 
